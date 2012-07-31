@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta>
+     <title>WebRTC/test</title>
+   </meta>
+   <link rel="stylesheet" type="text/css" href="./css/webrtc.css">
+ </head>
+  <body>
+<article>
+ <h1>WebCamera Test</h1>
+ <section id="app" hidden>
+ <div id="videoArea">
+  <div class="container"><span id="live" class="live">LIVE</span>
+  <canvas id="OUTPTcvs" title="WebCamera test"></canvas></div></div>
+  <video id="monitor" autoplay onclick="changeFilter(this)" ></video>
+ </section>
+ <p><button onclick="init(this)">Capture</button>
+ <input type="button" value="canvasSet" onClick="setTimer()"></p>
+ <div id="splash">
+  <p id="errorMessage">&uarr;<br>Click to begin</p>
+ </div>
+ <div id="gallery"></div>
+</article>
+<canvas id="photo" style="display:none"></canvas>
+<script type="text/javascript" src="./js/webrtc.js"></script>
+
+  </body>
+</html>

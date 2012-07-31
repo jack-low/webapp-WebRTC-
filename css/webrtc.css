@@ -1,0 +1,35 @@
+#videoArea #live{
+position: absolute;
+top: 62px;
+left: 10px;
+margin: 0;
+padding: 0;
+clip: rect(0px 640px 319px 0px);
+color: white;
+}
+#OUTPTcvs {
+height: 489px;
+width: 790px;
+}
+#monitor {
+position: absolute;
+width: 90px;
+height: 107px;
+top: 425px;
+left: 427px;
+-webkit-box-shadow: inset 0 0 0 22px rgba(39, 2, 238, 0.29);
+border: 3px solid rgba(253, 0, 71, 0.6);
+
+}
+@media (max-width: 750px) {
+#monitor {
+
+position: absolute;
+width: 117px;
+height: 113px;
+top: 435px;
+left: 320px;
+border: 5px solid rgba(253, 0, 71, 0.6);
+
+}
+}
